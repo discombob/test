@@ -1,3 +1,9 @@
 This is yet another file in the repo.
 
 Wow, so much cool stuff here.
+!DOCTYPE html
+<html>
+  <body>
+    Hah, this won’t actually work because its a text file.		
+  </body>
+</html>
