@@ -4,13 +4,12 @@ public class Person {
 	private int age;
 	
 	public Person(String name, int age) {
-		this.name = name;
+		this.name = Objects.requireNonNull(name);
 		this.age = age;
 	}
 	
 	public String getName() { return name; }
 	
 	public int getAge() { return age; }
-
 
 }
