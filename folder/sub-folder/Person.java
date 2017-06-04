@@ -12,5 +12,4 @@ public class Person {
 	
 	public int getAge() { return age; }
 
-
 }
