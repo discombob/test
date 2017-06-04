@@ -1,2 +1,2 @@
 Just another file to test here.
-Preparing for a merge conflict
+Conflict now resolved. Now time to check pulling instead of fetching for conflict.
