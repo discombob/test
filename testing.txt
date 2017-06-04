@@ -1,1 +1,2 @@
 Just another file to test here.
+This is the other end of the conflict.
