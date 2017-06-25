@@ -15,7 +15,7 @@ public class Person {
 	 */
 	public Person(String name, int age) {
 		this.name = Objects.requireNonNull(name);
-		this.age = (age < 1) ? 1 : age;
+		this.age = (age < 1 || age > 120) ? 1 : age;
 	}
 	
 	public String getName() { return name; }
