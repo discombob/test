@@ -24,5 +24,10 @@ public class Person {
 	public String getName() { return name; }
 	
 	public int getAge() { return age; }
+	
+	@Override
+	public String toString() {
+		return String.format("Person[name=%s, age=%s]");
+	}
 
 }
