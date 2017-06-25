@@ -5,6 +5,9 @@ import java.util.Objects;
  */
 public class Person {
 	
+	private static final int MAX_AGE_LIMIT = 120;
+	private static final int MIN_AGE_LIMIT = 1;
+	
 	private String name;
 	private int age;
 	
@@ -15,7 +18,7 @@ public class Person {
 	 */
 	public Person(String name, int age) {
 		this.name = Objects.requireNonNull(name);
-		this.age = (age < 1 || age > 120) ? 1 : age;
+		this.age = (age < MIN_AGE_LIMIT || age > MAX_AGE_LIMIT) ? 1 : age;
 	}
 	
 	public String getName() { return name; }
